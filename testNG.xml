@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+
+ <!-- <listeners>
+    <listener class-name="com.incture.utility.listener.CustomListeneresImplementation"/>
+  </listeners> -->
+  
+  <parameter name="port" value="4441"/>
+	<parameter name="nodeIp" value="172.16.30.239"/>
+	<parameter name="executionType" value="local" />
+	<parameter name="userName" value="FDUser1"/>		
+  <test name="Smoke Test Cases">
+    <classes>
+     <class name="com.incture.proj.testNg.TestClass" />
+     <!--  <class name="com.incture.proj.testNg.B_Process_Tracker_page_flow" />
+      <class name="com.incture.proj.testNg.C_Rules_Board_and_Action_Hub" />
+      <class name="com.incture.proj.testNg.D_Unified_Inbox_Tasks_Tabs_Navigation" />
+       <class name="com.incture.proj.testNg.F_Unified_Inbox_Tasks_Verification" /> -->
+     
+	</classes>
+  </test> <!-- Default test -->
+  
+	
+</suite> <!-- Default suite -->

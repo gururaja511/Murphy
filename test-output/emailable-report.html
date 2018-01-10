@@ -9,12 +9,58 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">18,031</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Smoke Test Cases</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">858</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.incture.proj.testNg.TestClass</td><td><a href="#m0">TestHomePageButton</a></td><td rowspan="1">1515565120621</td><td rowspan="1">716</td></tr><tr class="passedeven"><td><a href="#m1">TestHomePageHeadLine</a></td><td rowspan="1">1515565119567</td><td rowspan="1">976</td></tr><tr class="passedeven"><td><a href="#m2">TestRegisterPage</a></td><td rowspan="1">1515565121383</td><td rowspan="1">2772</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Test Cases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.incture.proj.testNg.TestClass</td><td><a href="#m0">setUp</a></td><td rowspan="1">1515566204585</td><td rowspan="1">175</td></tr><tr><th colspan="4">Smoke Test Cases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.incture.proj.testNg.TestClass</td><td><a href="#m1">CloseBrowser</a></td><td rowspan="1">1515566205439</td><td rowspan="1">0</td></tr><tr><th colspan="4">Smoke Test Cases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.incture.proj.testNg.TestClass</td><td><a href="#m2">TestHomePageButton</a></td><td rowspan="1">1515566205295</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">TestHomePageHeadLine</a></td><td rowspan="1">1515566204777</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">TestRegisterPage</a></td><td rowspan="1">1515566205375</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.incture.proj.testNg.TestClass#TestHomePageButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.incture.proj.testNg.TestClass#TestHomePageHeadLine</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.incture.proj.testNg.TestClass#TestRegisterPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Smoke Test Cases</h2><h3 id="m0">com.incture.proj.testNg.TestClass#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\home\contintegration\santosh\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.incture.utility.browser.MultipleBrowser.getBrowserDriver(MultipleBrowser.java:52)
+	at com.incture.proj.testNg.TestClass.setUp(TestClass.java:18)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.incture.proj.testNg.TestClass#CloseBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.incture.proj.testNg.TestClass#TestHomePageButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\home\contintegration\santosh\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.incture.utility.browser.MultipleBrowser.getBrowserDriver(MultipleBrowser.java:52)
+	at com.incture.proj.testNg.TestClass.setUp(TestClass.java:18)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.incture.proj.testNg.TestClass#TestHomePageHeadLine</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\home\contintegration\santosh\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.incture.utility.browser.MultipleBrowser.getBrowserDriver(MultipleBrowser.java:52)
+	at com.incture.proj.testNg.TestClass.setUp(TestClass.java:18)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.incture.proj.testNg.TestClass#TestRegisterPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\home\contintegration\santosh\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:120)
+	at com.incture.utility.browser.MultipleBrowser.getBrowserDriver(MultipleBrowser.java:52)
+	at com.incture.proj.testNg.TestClass.setUp(TestClass.java:18)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

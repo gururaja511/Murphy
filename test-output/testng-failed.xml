@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <parameter name="port" value="4441"/>
+  <parameter name="executionType" value="local"/>
+  <parameter name="nodeIp" value="172.16.30.239"/>
+  <parameter name="userName" value="FDUser1"/>
+  <test name="Smoke Test Cases(failed)">
     <classes>
       <class name="com.incture.proj.testNg.TestClass">
         <methods>
@@ -13,5 +17,5 @@
         </methods>
       </class> <!-- com.incture.proj.testNg.TestClass -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Smoke Test Cases(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
