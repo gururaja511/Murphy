@@ -15,7 +15,7 @@ public class TestClass {
 	Report report;
 	@BeforeTest
 	public void setUp() throws InterruptedException{
-		driver = new MultipleBrowser().getBrowserDriver("firefox");
+		driver = new MultipleBrowser().getBrowserDriver("chrome");
 		driver.get("http://192.168.5.36:9191/StudentEnrollmentWithREST/");
 	}
 	
