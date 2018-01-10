@@ -19,6 +19,7 @@ public class Constants {
 	public static final String sheetName = PlugInFunctions.getConstantProperty("sheetName");
 	public static final String browserName =  PlugInFunctions.getConstantProperty("browserName");
 	public static final String chromeDriverExe =  PlugInFunctions.getConstantProperty("chromeDriverExe");
+	public static final String firefoxDriverExe =  PlugInFunctions.getConstantProperty("firefoxDriverExe");
 	public static final String IEDriverServerExe=PlugInFunctions.getConstantProperty("IEDriverServerExe");
 	public static final String xPathfile = PlugInFunctions.getConstantProperty("xPathfile");
 	public static final String isRemote=PlugInFunctions.getConstantProperty("isRemote");

@@ -28,7 +28,7 @@ public class MultipleBrowser {
 			switch (browser.toLowerCase()) {
 
 			case "firefox":				
-
+				System.setProperty("webdriver.gecko.driver",Constants.firefoxDriverExe);
 				driver = new FirefoxDriver();
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
