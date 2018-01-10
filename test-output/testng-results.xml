@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18031" started-at="2018-01-10T06:18:30Z" finished-at="2018-01-10T06:18:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18031" started-at="2018-01-10T06:18:30Z" finished-at="2018-01-10T06:18:48Z">
+      <class name="com.incture.proj.testNg.TestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.incture.proj.testNg.TestClass@6500df86]" name="setUp" is-config="true" duration-ms="9410" started-at="2018-01-10T11:48:30Z" finished-at="2018-01-10T11:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestHomePageHeadLine()[pri:0, instance:com.incture.proj.testNg.TestClass@6500df86]" name="TestHomePageHeadLine" duration-ms="976" started-at="2018-01-10T11:48:39Z" finished-at="2018-01-10T11:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePageHeadLine -->
+        <test-method status="PASS" signature="TestHomePageButton()[pri:1, instance:com.incture.proj.testNg.TestClass@6500df86]" name="TestHomePageButton" duration-ms="716" started-at="2018-01-10T11:48:40Z" finished-at="2018-01-10T11:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePageButton -->
+        <test-method status="PASS" signature="TestRegisterPage()[pri:2, instance:com.incture.proj.testNg.TestClass@6500df86]" name="TestRegisterPage" duration-ms="2772" started-at="2018-01-10T11:48:41Z" finished-at="2018-01-10T11:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegisterPage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.incture.proj.testNg.TestClass@6500df86]" name="CloseBrowser" is-config="true" duration-ms="3959" started-at="2018-01-10T11:48:44Z" finished-at="2018-01-10T11:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.incture.proj.testNg.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
